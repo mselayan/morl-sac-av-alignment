@@ -1,6 +1,6 @@
 # From Observed Trade-Offs to Learned Behavior in Autonomous Driving
 
-Code for the paper *From Observed Trade-Offs to Learned Behavior in Autonomous Driving* (Elayan et al.).
+Code for the paper *From Observed Trade-Offs to Learned Behavior in Autonomous Driving* (Elayan, Kim, Ahn, and Kontar; University of Nebraska–Lincoln and University of Wisconsin–Madison).
 
 Behavioral trade-offs among risk, flow, and smoothness are extracted from naturalistic AV trajectories (TGSIM) and formalized as an empirical Pareto surface. A Soft Actor-Critic agent learns to modulate time headway and comfortable deceleration on top of a heterogeneous IDM baseline in SUMO, using proximity to that surface as its reward. The trained policy is then evaluated without retraining on five unseen network types.
 
